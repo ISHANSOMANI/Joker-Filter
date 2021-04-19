@@ -1,0 +1,20 @@
+h3{
+    font-family: Algerian;
+    font-weight: bold;
+    color: aqua;
+    font-size: 25px !important;
+}
+canvas{
+    border: dashed 5px; 
+    animation-name:ishan;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes ishan{
+    from{box-shadow: 7px 5px 30px lime;}
+    to{box-shadow: -7px -5px 30px aqua;}
+}
+
+.btn-warning:hover{
+background-color: rgb(230, 49, 17);
+}
